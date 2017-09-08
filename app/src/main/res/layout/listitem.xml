@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <CheckBox
+        android:id="@+id/itemcheck_wifi"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="8dp"
+        android:buttonTint="#1aa3ff"
+        android:checked="false"
+        android:duplicateParentState="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        tools:layout_editor_absoluteY="0dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="32dp"
+        android:buttonTint="#1aa3ff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/itemcheck_3g"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline">
+
+    </CheckBox>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/itemtext"
+        android:text="uid:packages"
+        android:textColor="#1aa3ff"
+        android:textStyle="bold"
+        android:layout_width="226dp"
+        app:layout_constraintLeft_toRightOf="@+id/itemcheck_3g"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="4dp"
+        tools:layout_editor_absoluteX="110dp">
+
+    </TextView>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="60dp"
+        android:orientation="vertical" />
+</android.support.constraint.ConstraintLayout>

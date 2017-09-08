@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroShield</string>
+    <string name="title_enabled">AndroShield Enabled</string>
+    <string name="title_disabled">AndroShield Disabled</string>
+    <string name="applyrules">Apply rules</string>
+    <string name="fw_enabled">Firewall enabled</string>
+    <string name="fw_disabled">Firewall disabled</string>
+    <string name="applying_rules">Applying iptables rules.</string>
+    <string name="saving_rules">Saving iptables rules.</string>
+    <string name="deleting_rules">Deleting iptables rules.</string>
+    <string name="rules_applied">Rules applied with success</string>
+    <string name="rules_saved">Rules saved with success</string>
+    <string name="rules_deleted">Rules deleted with success</string>
+    <string name="working">Working...</string>
+    <string name="reading_apps">Reading installed applications</string>
+    <string name="please_wait">Please wait</string>
+    <string name="mode_header">Mode: %s</string>
+    <string name="mode_whitelist">White list (allow selected)</string>
+    <string name="mode_blacklist">Black list (block selected)</string>
+    <string name="toast_bin_installed">DroidWall: Binary files installed!</string>
+    <string name="toast_error_enabling">"DroidWall: Error enabling firewall!"</string>
+
+</resources>
