@@ -24,7 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.Arrays;
 import java.util.Comparator;
-
+import java.util.*;
 import static com.example.rajdeep.firewall.Api.getApps;
 
 public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener,
